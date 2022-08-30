@@ -1,5 +1,10 @@
-# *Not* in short - My full programmer's life story
-## NSMBW modding
+# *Not* in short — My full programmer's life story
+## Preamble
+Most of my past works mentionned here will not have links given.
+
+This is to avoid this account to be linked with my other ones, though by giving a little search to your favourite search engine, you can find the tools I mentionned and from there, all the rest of my stuff.
+
+## NSMBW modding — 2017-Today
 That actually represents an enormous part of my life. My first attempts at it were around mid-late 2017, but I started to get a decent level around 2020 and I'm still going at the time of writing, August 2022.
 
 For starters, NSMBW, or [New Super Mario Bros. Wii](https://wikipedia.org/wiki/New_Super_Mario_Bros._Wii) is a [Nintendo Wii](https://wikipedia.org/wiki/Wii) game released in 2009.
@@ -12,8 +17,8 @@ At first it mainly consisted of C++, but I eventually got to learn PowerPC Assem
 
 Pretty much all of my pre-2023 programming experience came from there, and it also gave me quite some reverse-engineering experience that I hope to be able to use in the future.
 
-## C# Tools
-I've made *plenty* of CLI and GUI tools in C#, most of them being related in a way or another to NSMBW.
+## C# Tools — 2019-Today
+I've made *plenty* of CLI and GUI tools in C#, most of them being related in a way or another to [NSMBW](https://wikipedia.org/wiki/New_Super_Mario_Bros._Wii).
 
 Notable tools I've made are:
 
@@ -26,7 +31,7 @@ GUI:
 * Editors for the Cutscene and Credit Dance file formats used in [NewerSMBW](https://newerteam.com/wii/)
 * A tool to simplify the generation for YAML files used to create new actors in NSMBW
 
-## Guide Robot
+## Guide Robot — 2021-2022
 During my last year of High school (*terminale* in french, 12th grade in the US) in a technology-oriented course, I was tasked, along with three other classmates, to make a mini robot that'd guide people through the different rooms during the school's open day.
 
 The project would be done in two parts:
@@ -55,12 +60,12 @@ Our project was then chosen to participate to the 13th edition of the *Olympiade
 
 ## Other works
 
-### Programming club
+### Programming club — 2016-2017
 From 2016 to 2017 I was in a sort of independant programming club where we were taught the basics of C# to make a basic [Unity](https://unity.com/) game.
 
 It started as a basic bowling game, then it expanded to a game with a basic controllable character, an enemy that would try to kill them and collectibles.
 
-### Discord bot
+### Discord bot — 2018-2021
 In April 2018 I made a discord bot in Java for a private roleplay Discord serber themed around a restaurant owned by [Chef Kawasaki](https://kirby.fandom.com/wiki/Chef_Kawasaki).
 
 When talking in the chat, a user would recieve a certain amount of money, in a currency called the *Kawadollard*.
@@ -81,7 +86,7 @@ Finally, in July 2021, the server had its fifth and final season to date, for a 
 
 I'd love to resume this project one day and make a sixth season, but for that I'd need to find the motivation to finish the gestion game! Though who knows, maybe during summer 2023...
 
-### Misc tools
+### Misc tools — 2019-Today
 
 Everytime I need to automate something on my computer, I took the habit of making a tool for it.
 
