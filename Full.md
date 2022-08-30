@@ -1,6 +1,6 @@
 # *Not* in short — My full programmer's life story
 ## Preamble
-Most of my past works mentionned here will not have links given.
+Most of my past works mentionned here will not have any links given.
 
 This is to avoid this account to be linked with my other ones, though by giving a little search to your favourite search engine, you can find the tools I mentionned and from there, all the rest of my stuff.
 
