@@ -66,11 +66,11 @@ From 2016 to 2017 I was in a sort of independant programming club where we were 
 It started as a basic bowling game, then it expanded to a game with a basic controllable character, an enemy that would try to kill them and collectibles.
 
 ### Discord bot — 2018-2021
-In April 2018 I made a discord bot in Java for a private roleplay Discord serber themed around a restaurant owned by [Chef Kawasaki](https://kirby.fandom.com/wiki/Chef_Kawasaki).
+In April 2018 I made a discord bot in Java for a private roleplay Discord server themed around a restaurant owned by [Chef Kawasaki](https://kirby.fandom.com/wiki/Chef_Kawasaki).
 
 When talking in the chat, a user would recieve a certain amount of money, in a currency called the *Kawadollard*.
 
-Then, by typing a certain command in the chat, they'd receive the list of aailable dishes along with their price, and could buy one of them using another command.
+Then, by typing a certain command in the chat, they'd receive the list of available dishes along with their price, and could buy one of them using another command.
 
 The bot would then send a picture of the requested dish (as a "here's your dish" message) and take away the amount of money corresponding to the dish's price to the user.
 
