@@ -2,10 +2,10 @@
 ## Preamble
 Most of my past works mentionned here will not have any links given.
 
-This is to avoid this account to be linked with my other ones, though by giving a little search to your favourite search engine, you can find the tools I mentionned and from there, all the rest of my stuff.
+This is to avoid this account to be linked with my other ones, though by giving a little search on your favourite search engine, you can find the tools I mentionned and from there, all the rest of my stuff.
 
-## NSMBW modding — 2017-Today
-That actually represents an enormous part of my life. My first attempts at it were around mid-late 2017, but I started to get a decent level around 2020 and I'm still going at the time of writing, August 2022.
+## NSMBW modding — 2017-2022
+That actually represents an enormous part of my life. My first attempts at it were around mid-late 2017, but I started to get a decent level around 2020. I stopped doing it regularly in late 2022, but I'm still doing some things from time to time when I feel like it.
 
 For starters, NSMBW, or [New Super Mario Bros. Wii](https://wikipedia.org/wiki/New_Super_Mario_Bros._Wii) is a [Nintendo Wii](https://wikipedia.org/wiki/Wii) game released in 2009.
 
@@ -29,7 +29,7 @@ CLI:
 GUI:
 * Save File editors for [NSMB](https://wikipedia.org/wiki/New_Super_Mario_Bros.), [NSMBW](https://wikipedia.org/wiki/New_Super_Mario_Bros._Wii) and [NSMBU](https://wikipedia.org/wiki/New_Super_Mario_Bros._U)
 * Editors for the Cutscene and Credit Dance file formats used in [NewerSMBW](https://newerteam.com/wii/)
-* A tool to simplify the generation for YAML files used to create new actors in NSMBW
+* A tool to simplify the generation of YAML files used to create new actors in NSMBW
 
 ## Guide Robot — 2021-2022
 During my last year of High school (*terminale* in french, 12th grade in the US) in a technology-oriented course, I was tasked, along with three other classmates, to make a mini robot that'd guide people through the different rooms during the school's open day.
@@ -50,7 +50,7 @@ I did hit one major obstacle when making the control station however: I needed t
 
 The way the paths are transfered to the robot is using yet another micro:bit card, connected to the control station, that'd send the path to follow as bytes using a program the control station would put in said card.
 
-This byte-sending program, however, would have needed to be possible to changed to be able to send any byte the control station desires. But while the programs the micro:bit cards used were made in python, these would need to be converted into a format the card would understand before being sent to it.
+This byte-sending program, however, would have needed to be possible to change, to be able to send any byte the control station desires. But while the programs the micro:bit cards used were made in python, these would need to be converted into a format the card would understand before being sent to it.
 
 This format however, was highly undocumented. I had to figure out myself how it worked by guessing and by reading the source code of the IDE that converted python programs to said format.
 
@@ -94,6 +94,51 @@ Need to batch-convert a file from a format to another? Write a program for it. N
 
 You know, this kind of small programs.
 
+## University — 2022-Today
+
+I started attending University in September 2022. My course's name is *"BUT Informatique, Parcours Réalisation d'applications : conception, développement, validation"*.
+
+To put it in actual words, it's a computer science course focused on app design, development and validation. (By "app" I don't mean mobile apps, I mean any kind of apps. I guess the better word here would be "software".)
+
+My course is done in three years, so it's expected to end around July 2025 for me.
+
+On this section, I'll write little journal entries about how I feel there and what I've learnt so far.
+
+### Entry 1: March 9th 2023
+
+This entire uni thing went a lot better than I actually expected, besides a few points.
+
+During the first semester, we learnt:
+* Programming concepts basics (using C++)
+* HTML/CSS basics, some bits of JS
+* Computer architecture basics (using [Logisim](http://www.cburch.com/logisim/|Logisim))
+* Database basics (Both theoratically and practically using SQL)
+* OS basics (more like Linux basics honestly)
+
+I knew most of the C++ stuff we talked about, but the rest was pretty much new to me. I was absolutely mind blown by the computer architecture classes, even if I already have some experience with it as I've written PowerPC assembly during the past two years.
+
+So yeah, good stuff! Though I expected a little more on the web part: we didn't go very in-depth with JS and we barely mentionned PHP. Hope I'll be able to get better at that eventually, because as of right now I'm pretty much unable to make a decent website.
+
+However, the most surprising part about it is the fact that I made friends. That was the part I was the most afraid about, and it went so well! I don't eat alone during lunch anymore, and I have people to speak to, that's nice!
+
+Now of course, I absolutely need to talk about my grades. I'm quite proud of them and I think it might be useful to expose them here.
+
+We split grades into six modules, in which our average is split. There's no "global" average, it's six averages with a given name.
+A lot of grades count in multiple modules, so some averages are quite close.
+
+Please note that here in France, our grades are written out of 20 points, not as a percentage:
+* Create an app: 19.87/20 (rank 1/26)
+* Optimize an app: 19.86/20 (rank 1/26)
+* Manage, deploy and maintain a computer or an app: 17.66/20 (rank 1/26)
+* Handle data and a database: 16.92/20 (rank 1/26)
+* Running a project: 14.40/20 (rank 5/26)
+* Work as a team: 14.61/20 (rank 8/26)
+
+So yeah, good stuff, quite proud of the ranks mostly.
+The names of each modules aren't very faithful with the things they contain, so don't focus on them.
+
+That's the end of this entry! I think I'll make some of the projects we worked on available to the public someday.
+
 ## Conclusion
 
 This wraps up my "Who am I?" list, hope you enjoyed reading through it!
@@ -102,4 +147,4 @@ I'll try to make yearly updates to this with new experiences I may go through ov
 
 Thanks for reading!
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Matthieu GIROLET, August 30th 2022
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Matthieu GIROLET, March 9th 2023

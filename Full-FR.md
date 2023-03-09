@@ -4,10 +4,10 @@ La plupart des travaux passés mentionnés ici n'auront aucun lien.
 
 C'est pour éviter que ce compte soit relié à mes autres comptes, même si il suffit d'une petite recherche dans votre moteur de recherche favoris pour trouver les outils que j'ai mentionné, accompagné de tout le reste.
 
-**Tout ce qui est écrit ici a été rédigé en [anglais](https://github.com/giroletm/giroletm/blob/main/Full.md) puis seulement ensuite traduit en français par mes soins. Donc si certaines phrases sont un peu bancales, c'est normal!**
+**Tout ce qui est écrit ici a été rédigé en [anglais](https://github.com/giroletm/giroletm/blob/main/Full.md) puis seulement ensuite traduit en français par mes soins. Donc si certaines phrases sont un peu bancales, c'est normal !**
 
 ## Modding de NSMBW — 2017-Aujourd'hui
-Cette partie représente une partie énorme de ma vie. Mes premiers essais se sont passés en fin 2017, mais j'ai commencé à avoir un niveau potable vers 2020 et je continue cette activité à ce jour, en août 2022.
+Cette partie représente une partie énorme de ma vie. Mes premiers essais se sont passés en fin 2017, mais j'ai commencé à avoir un niveau potable vers 2020. J'ai arrêté d'en faire régulièrement en fin 2022, mais je fais toujours quelques trucs de temps en temps.
 
 Pour poser les bases, NSMBW, ou [New Super Mario Bros. Wii](https://wikipedia.org/wiki/New_Super_Mario_Bros._Wii) est un jeu sorti sur la [Nintendo Wii](https://wikipedia.org/wiki/Wii) en 2009. Le modding consistant à modifier le jeu pour y ajouter ce que l'on désire.
 
@@ -96,6 +96,51 @@ Besoin de convertir en masse des fichiers d'un format vers un autre ? Écrit un 
 
 Ce genre de petits programme, quoi.
 
+## Université — 2022-Aujourd'hui
+
+J'ai commencé l'université en septembre 2022. Le nom officiel de ma formation est "BUT Informatique, Parcours Réalisation d'applications : conception, développement, validation".
+
+Pour le dire un peu plus clairement, c'est une formation dans l'informatique qui porte sur la conception, le développement et la validation d'applications. (Par "application" je ne veux pas dire application mobile, je veux dire tout type d'application. Le mot le plus approprié serait "logiciel".)
+
+Ma formation se fait en trois ans, donc elle devrait se terminer vers juillet 2025 pour moi.
+
+Dans cette section, je vais écrire des petites entrées de journal sur mon ressenti là-bas et sur ce que j'ai appris jusqu'ici.
+
+### Entrée 1: 9 mars 2023
+
+L'université se passe bien mieux que ce à quoi je m'attendait en fait, mis à part quelques trucs.
+
+Pendant le premier semestre, on a vu:
+* Les concepts de base de la programmation (avec du C++)
+* La base du HTML/CSS, quelques trucs en JS
+* La base de l'architecture des ordinateurs (avec [Logisim](http://www.cburch.com/logisim/|Logisim))
+* La base des bases de données (En théorie et en pratique avec du SQL)
+* La base des systèmes d'exploitation (surtout les bases de Linux, honnêtement)
+
+Je connaissait déjà la plupart de ce qu'on a vu en C++, mais le reste était nouveau pour moi. J'ai été complètement ébloui par les cours d'architecture des ordinateurs, même si j'ai déjà quelques bases grâce à mes deux années passées à écrire de l'assembleur PowerPC.
+
+Donc ouais, des trucs cool ! Mais je m'attendait à plus niveau web: on n'est pas allé très en profondeur sur le JS, et on a à peine mentionné le PHP. J'espère que je pourrait m'améliorer là dessus à un moment ou à un autre, car actuellement je suis incapable de faire un site web correct.
+
+Pourtant, la partie la plus surprenante de tout ça est le fait que je me soit fais des amis. C'était le truc qui m'inquiétait le plus, et ça s'est si bien passé ! Je ne mange plus seul le midi et j'ai des gens avec qui parler, donc c'est cool !
+
+Bien entendu, il faut que je parle de mes notes. J'en suis assez fier et je pense que ça peut servir de les exposer ici.
+
+On divise nos notes en six modules, dans lequels notre moyenne est divisée. Il n'y a pas de moyenne "générale", c'est six moyennes avec un nom associé à chacune.
+Beaucoup de notes comptent dans plusieurs modules, donc certaines moyennes sont très proches.
+
+On note sur 20 ici, d'ailleurs:
+* Réaliser une application: 19.87/20 (rang 1/26)
+* Optimiser une application: 19.86/20 (rang 1/26)
+* Administrer, configurer, déployer et maintenir un système informatique ou une application: 17.66/20 (rang 1/26)
+* Gérer des données et une base de données: 16.92/20 (rang 1/26)
+* Conduite un projet: 14.40/20 (rang 5/26)
+* Travailler en équipe: 14.61/20 (rang 8/26)
+
+Donc ouais, des bonnes notes quoi, je suis surtout fier des rangs.
+Le nom des modules ne représentent pas vraiment ce qu'ils contiennent, donc ne vous concentrez pas trop dessus.
+
+C'est tout pour cette fois! Je pense rendre public certains des projets sur lesquels on a bossé un jour.
+
 ## Conclusion
 
 Voilà qui conclut ce "Qui suis-je", j'espère que vous avez apprécié votre temps en le lisant!
@@ -104,4 +149,4 @@ Je vais essayer de faire des mises à jour annuelles avec mes nouvelles expérie
 
 Merci d'avoir lu!
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Matthieu GIROLET, 30 août 2022
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Matthieu GIROLET, 9 mars 2023

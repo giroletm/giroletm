@@ -1,7 +1,7 @@
 # In short
-- Once a NSMBW modder (more specifically, programmer)
+- Once a NSMBW modder (more specifically, a programmer)
 - Now an actual student, learning stuff from people who know what they are doing
-- Currently learning C++ & HTML/CSS/JS at school (soon enough Java), though also have some experience with PowerPC Assembly and Python
+- Currently working on my C++, C#, HTML/CSS/JS, SQL & more at university (soon enough PHP and some other things), though also have some experience with PowerPC Assembly and Python
 - [French](https://github.com/giroletm/giroletm/blob/main/README-FR.md) 🤮🥖
 - Dreaming to become a full-time videogame developer, though that'll probably stay a dream
 
