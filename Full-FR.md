@@ -84,9 +84,9 @@ Puis après avoir à nouveau fermé, le serveur est revenu pour une saison trois
 
 Puis avec le COVID et la canicule, la saison quatre du serveur s'est invitée plus tôt que prévu en août 2020 (encore pendant deux mois) avec un système de plats complètement réécrit et un meilleur système pour gérer son argent.
 
-Enfin, en juillet 2021, le serveur a eu sa cinquième et dernière saison à ce jour, encore une fois pendant deux mois. Le bot a eu sa plus grosse mise à jour: un jeu de gestion complet était en cours de création qui consistait en la culture d'ingrédients et essayer de créer des plats en utilisant ces derniers, ou se tromper était fréquent mais réussir valait sacrément le coup! Malheureusement, je n'ai pas pu le finir à temps. Quelques changements de QdV ont été aussi effectués, comme l'ajout d'un salaire quotidien qui serait plus haut pour les membres les plus actifs.
+Enfin, en juillet 2021, le serveur a eu sa cinquième et dernière saison à ce jour, encore une fois pendant deux mois. Le bot a eu sa plus grosse mise à jour: un jeu de gestion complet était en cours de création qui consistait en la culture d'ingrédients et essayer de créer des plats en utilisant ces derniers, où se tromper était fréquent mais réussir valait sacrément le coup ! Malheureusement, je n'ai pas pu le finir à temps. Quelques changements de QdV ont été aussi effectués, comme l'ajout d'un salaire quotidien qui serait plus haut pour les membres les plus actifs.
 
-J'adorerais reprendre ce projet un jour et faire une saison six, mais pour ça il faudrait que je trouve la motivation de finir le jeu de gestion! Mais qui sait, peut-être pendant l'été 2023...
+J'adorerais reprendre ce projet un jour et faire une saison six, mais pour ça il faudrait que je trouve la motivation de finir le jeu de gestion ! Mais qui sait, peut-être pendant l'été 2023...
 
 ### Outils divers — 2019-Aujourd'hui
 
@@ -139,7 +139,7 @@ On note sur 20 ici, d'ailleurs:
 Donc ouais, des bonnes notes quoi, je suis surtout fier des rangs.
 Le nom des modules ne représentent pas vraiment ce qu'ils contiennent, donc ne vous concentrez pas trop dessus.
 
-C'est tout pour cette fois! Je pense rendre public certains des projets sur lesquels on a bossé un jour.
+C'est tout pour cette fois ! Je pense rendre public certains des projets sur lesquels on a bossé un jour.
 
 ## Conclusion
 
@@ -147,6 +147,6 @@ Voilà qui conclut ce "Qui suis-je", j'espère que vous avez apprécié votre te
 
 Je vais essayer de faire des mises à jour annuelles avec mes nouvelles expériences.
 
-Merci d'avoir lu!
+Merci d'avoir lu !
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Matthieu GIROLET, 9 mars 2023
