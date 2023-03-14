@@ -6,7 +6,7 @@ C'est pour éviter que ce compte soit relié à mes autres comptes, même si il 
 
 **Tout ce qui est écrit ici a été rédigé en [anglais](https://github.com/giroletm/giroletm/blob/main/Full.md) puis seulement ensuite traduit en français par mes soins. Donc si certaines phrases sont un peu bancales, c'est normal !**
 
-## Modding de NSMBW — 2017-Aujourd'hui
+## Modding de NSMBW — 2017-2022
 Cette partie représente une partie énorme de ma vie. Mes premiers essais se sont passés en fin 2017, mais j'ai commencé à avoir un niveau potable vers 2020. J'ai arrêté d'en faire régulièrement en fin 2022, mais je fais toujours quelques trucs de temps en temps.
 
 Pour poser les bases, NSMBW, ou [New Super Mario Bros. Wii](https://wikipedia.org/wiki/New_Super_Mario_Bros._Wii) est un jeu sorti sur la [Nintendo Wii](https://wikipedia.org/wiki/Wii) en 2009. Le modding consistant à modifier le jeu pour y ajouter ce que l'on désire.
