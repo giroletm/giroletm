@@ -30,6 +30,7 @@ GUI:
 * Save File editors for [NSMB](https://wikipedia.org/wiki/New_Super_Mario_Bros.), [NSMBW](https://wikipedia.org/wiki/New_Super_Mario_Bros._Wii) and [NSMBU](https://wikipedia.org/wiki/New_Super_Mario_Bros._U)
 * Editors for the Cutscene and Credit Dance file formats used in [NewerSMBW](https://newerteam.com/wii/)
 * A tool to simplify the generation of YAML files used to create new actors in NSMBW
+* Recently made an [Angry Birds](https://wikipedia.org/wiki/Angry_Birds) modding tool. For now it only allows for spritesheet edition.
 
 ## Guide Robot — 2021-2022
 During my last year of High school (*terminale* in french, 12th grade in the US) in a technology-oriented course, I was tasked, along with three other classmates, to make a mini robot that'd guide people through the different rooms during the school's open day.
@@ -106,7 +107,9 @@ On this section, I'll write little journal entries about how I feel there and wh
 
 ### Entry 1: March 9th 2023
 
-This entire uni thing went a lot better than I actually expected, besides a few points.
+This entire uni thing went a lot better than I actually expected (besides a few points ofc).
+
+#### What I have learnt & my feelings
 
 During the first semester, we learnt:
 * Programming concepts basics (using C++)
@@ -120,6 +123,8 @@ I knew most of the C++ stuff we talked about, but the rest was pretty much new t
 So yeah, good stuff! Though I expected a little more on the web part: we didn't go very in-depth with JS and we barely mentionned PHP. Hope I'll be able to get better at that eventually, because as of right now I'm pretty much unable to make a decent website.
 
 However, the most surprising part about it is the fact that I made friends. That was the part I was the most afraid about, and it went so well! I don't eat alone during lunch anymore, and I have people to speak to, that's nice!
+
+#### My grades
 
 Now of course, I absolutely need to talk about my grades. I'm quite proud of them and I think it might be useful to expose them here.
 
@@ -138,6 +143,112 @@ So yeah, good stuff, quite proud of the ranks mostly.
 The names of each modules aren't very faithful with the things they contain, so don't focus on them.
 
 That's the end of this entry! I think I'll make some of the projects we worked on available to the public someday.
+
+### Entry 2: June 29th 2023
+
+Well, that's the end of the first year. Two more to go!
+
+#### Future work
+
+I have found a company to have a [dual education](https://en.wikipedia.org/wiki/Dual_education_system) along university.
+
+I'll get a lot more experience in there. It'll be nice to finally go from theory and personal projects to actual work.
+I obviously can't say anything precise abotu what I'll do there, but I can tell you that I'll mainly write C# code.
+
+#### University projects
+
+Now on the uni side, there is something I don't think I have talked about before here that I need to explain.
+
+Each semester, we have a set of projects to do called "SAÉ" ([Situation d'Apprentissage et d'évaluation](https://fr.wikipedia.org/wiki/Situation_d%27apprentissage_et_d%27%C3%A9valuation)).
+In the first year, we have a whopping six projects to work on per semester, for a total of twelve, which is one project per module (Cf. Entry 1) per semester (6 modules × 2 semesters = 12 projects).
+
+So I'd like to talk about some of them (mostly the ones I enjoyed) to share some of what I have learnt along the way (and to brag a little bit, let's be honest).
+
+Also, I did ask for permission to the people I worked on these projects with to have their part of the work included here.
+
+##### The first project: Command line games (SAÉ 1.01)
+
+Our first project consisted into making small games in a CLI.
+
+![The project's titlescreen](https://github.com/giroletm/giroletm/blob/main/Resources/READMEFull/Entry2/SAE101-Titlescreen.png?raw=true)
+
+*The project's titlescreen*
+
+Very basic but works well. The available games are:
+* Pong
+* Snake
+* [m,n,k-game](https://en.wikipedia.org/wiki/M,n,k-game)
+* [Nim](https://en.wikipedia.org/wiki/Nim)
+* Rock, Paper, Scissors
+* [Connect 4](https://en.wikipedia.org/wiki/Connect_Four)
+* [Blackjack](https://en.wikipedia.org/wiki/Blackjack)
+* A Pokémon fight simulator
+
+I made the first four games, whereas my three groupmates made the remaining four.
+
+I also made a highscores system, allowing you to save your name and score whenever you beat the previous highscore.
+Your name and score then gets stored into a file to be re-opened whenever you restart the game.
+
+All of this was written in pure C++.
+
+##### An AI project (SAÉ 1.02)
+
+In parallel to other projects that will go unmentionned here, we had a project that consisted into writing an AI to play [Hexapawn](https://en.wikipedia.org/wiki/Hexapawn).
+
+The point was to write multiple AIs that would follow a simple principe, and the end goal was to have the best compromise between code efficiency and game proficiency.
+
+So, me and my two groupmates made three AIs:
+* The tree approach: calculate every board possibility as a tree and give scores to each branches, then play the move that has the highest score.
+* The score by square approach: simulate a given number of games and give a higher score to squares that often lead to victories. Then, choose the move that leads your pawns to the most strategic squares
+* The score by pawn approach: simulate a given number of games and give a higher score to pawns that often win. Then, play those more often than others.
+
+I programmed the first one, and my groupmates did the other two.
+
+If you ever worked with code complexity, you might have already figured out that while the first one wins a lot, it is very long to calculate possibilities and therefore can't work in a reasonable amount of time for a game board as large as 5×5.
+
+The other two AIs however, while they loose more often, work for pretty much any board size if you cap the simulation count.
+
+Ah and, of course, we have written this in C++, and also have made a 13 pages long report to describe our choices, difficulties and solutions.
+
+##### A game (SAÉ 2.01 & 2.05)
+
+Okay, true, there might be a liiiiittle gap between this and the previous projects.
+But well, between semesters 1 and 2, we gained a lot of experience!
+
+So the final project of the second semester was to make a board game (of a size of at least 10×10), with elements in each square and the possibility to interact with them using the arrow keys, buttons, a drag-and-drop system, etc.
+
+To put it simply, we obliterated the initial guidelines: 
+
+![Gameplay from the project](https://github.com/giroletm/giroletm/blob/main/Resources/READMEFull/Entry2/SAE201205-Gameplay.png?raw=true)
+
+We made an RPG, with a fully designed map, building interiors, and even a main quest with a little storyline for the game.
+
+All of this, in four weeks, in C++, using [SDL2](https://www.libsdl.org/) for graphics rendering.
+
+I programmed the various internal systems the game works with (actor system, state machine, map system, etc).
+One of my groupmates did all of the design and also programmed the inventory system, whereas my other groupmates programmed the characters (Player & NPCs) and the textbox system.
+
+We even had a friend of mine making musics for the game. We also took textures and sound effects from (respectively) [RPG Maker](https://www.rpgmakerweb.com/) and [Untertale](https://undertale.com/).
+
+That was a lot of work for a short amount of time, but we succeeded.
+
+##### SAÉ All stars (The unmentionned ones)
+
+Since I'm not going to mention all projects, here is a list of all unmentionned ones:
+* SAÉ 1.03: Setting up a computer for two clients: a familly and a student
+* SAÉ 1.04: Creating a database according to a client's constraints
+* SAÉ 1.05: Developping a client's showcase website
+* SAÉ 1.06: Analyzing the economy side of an IT-specialized company
+* SAÉ 2.02: Writing an algorithm to find the shortest path between two points on a map that has different constraints on each and every area
+* SAÉ 2.03: Making a instant [IRC](https://en.wikipedia.org/wiki/Internet_Relay_Chat)-like chat app that works using a client-server system through a local network
+* SAÉ 2.04: Turning a set of [CSV files](https://en.wikipedia.org/wiki/Comma-separated_values) into a working database and create diagrams to study the data contained within it
+* SAÉ 2.06: Organizing the welcome day for next year's batch of students
+
+I will soon enough make a repository with the codes of all project, I'll add a link here once that's done.
+
+#### End words
+
+See you next year ;)
 
 ## Conclusion
 

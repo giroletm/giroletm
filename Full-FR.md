@@ -32,6 +32,7 @@ GUI:
 * Des éditeurs de sauvegarde pour [NSMB](https://wikipedia.org/wiki/New_Super_Mario_Bros.), [NSMBW](https://wikipedia.org/wiki/New_Super_Mario_Bros._Wii) et [NSMBU](https://wikipedia.org/wiki/New_Super_Mario_Bros._U)
 * Des éditeurs pour le formats de fichier des cinématiques et celui de la danse des crédits utilisés dans [NewerSMBW](https://newerteam.com/wii/)
 * Un outil pour simplifier la génération de fichiers YAML utilisés pour créer de nouveaux ennemis et acteurs NSMBW
+* Plus récemment, un outil de modding d'[Angry Birds](https://fr.wikipedia.org/wiki/Angry_Birds). Pour le moment il ne permet de modifier que les spritesheets du jeu.
 
 ## Robot-guide — 2021-2022
 Pendant ma dernière année de terminale en fillière technologie (STI2D), on m'a donné pour projet, avec trois camarades, de faire un petit robot qui guiderai des gens à travers le pôle technologique de l'école pendant la journée portes ouvertes.
@@ -110,6 +111,8 @@ Dans cette section, je vais écrire des petites entrées de journal sur mon ress
 
 L'université se passe bien mieux que ce à quoi je m'attendait en fait, mis à part quelques trucs.
 
+#### Ce que j'ai appris & mon ressenti
+
 Pendant le premier semestre, on a vu:
 * Les concepts de base de la programmation (avec du C++)
 * La base du HTML/CSS, quelques trucs en JS
@@ -122,6 +125,8 @@ Je connaissait déjà la plupart de ce qu'on a vu en C++, mais le reste était n
 Donc ouais, des trucs cool ! Mais je m'attendait à plus niveau web: on n'est pas allé très en profondeur sur le JS, et on a à peine mentionné le PHP. J'espère que je pourrait m'améliorer là dessus à un moment ou à un autre, car actuellement je suis incapable de faire un site web correct.
 
 Pourtant, la partie la plus surprenante de tout ça est le fait que je me soit fais des amis. C'était le truc qui m'inquiétait le plus, et ça s'est si bien passé ! Je ne mange plus seul le midi et j'ai des gens avec qui parler, donc c'est cool !
+
+#### Mes notes
 
 Bien entendu, il faut que je parle de mes notes. J'en suis assez fier et je pense que ça peut servir de les exposer ici.
 
@@ -140,6 +145,117 @@ Donc ouais, des bonnes notes quoi, je suis surtout fier des rangs.
 Le nom des modules ne représentent pas vraiment ce qu'ils contiennent, donc ne vous concentrez pas trop dessus.
 
 C'est tout pour cette fois ! Je pense rendre public certains des projets sur lesquels on a bossé un jour.
+
+### Entrée 2: 29 juin 2023
+
+Bon bah, c'est la fin de la première année. Plus que deux !
+
+#### Travail futur
+
+J'ai trouvé une entreprise pour faire de l'[alternance](https://fr.wikipedia.org/wiki/Formation_par_alternance).
+
+J'y gagnerais beaucoup d'expérience supplémentaire. Ça va être bien d'enfin pouvoir passer de la théorie et des projets perso à du vrai travail.
+Je ne peux évidemment pas dire quoi que ce soit de précis sur ce que j'y ferais, mais je peux dire que j'y écrirais principalement du C#.
+
+#### Projets universitaires
+
+Côté université, il y a un concept dont je n'ai pas parlé auparavant qu'il faut que j'explique.
+
+Chaque semestre, on a des projets à faire nommés "SAÉ" ([Situation d'Apprentissage et d'évaluation](https://fr.wikipedia.org/wiki/Situation_d%27apprentissage_et_d%27%C3%A9valuation)).
+Durant la première année, on a un total de six projets par semestre, pour un grand total de douze, ce qui correspond à un projet par module (Cf. Entrée 1) par semestre (6 modules × 2 semestres = 12 projets).
+
+Donc j'aimerais parler de quelques d'entre eux (principalement ceux qui m'ont amusé) pour partager ce que j'ai appris sur le chemin (et pour m'en vanter un peu, soyons honnêtes).
+
+Ah et, j'ai demandé la permission aux camarades qui ont bossé avec moi sur les projets présentés.
+
+
+##### Le premier projet: des jeux en ligne de commande (SAÉ 1.01)
+
+Le premier projet consistait en la création de petits jeu dans une interface en lignes de commandes.
+
+![L'écran-titre du jeu](https://github.com/giroletm/giroletm/blob/main/Resources/READMEFull/Entry2/SAE101-Titlescreen.png?raw=true)
+
+*L'écran-titre du jeu*
+
+Assez basique mais ça marche bien. Les jeux disponibles sont:
+* Pong
+* Snake
+* Le [Morpion](https://fr.wikipedia.org/wiki/Morpion_(jeu))
+* Le [Jeu des Bâtonnets](https://fr.wikipedia.org/wiki/Jeux_de_Nim)
+* Pierre, Feuille, Ciseaux
+* [Puissance 4](https://fr.wikipedia.org/wiki/Puissance_4)
+* [Blackjack](https://fr.wikipedia.org/wiki/Blackjack_(jeu))
+* Un simulateur de combats de Pokémons
+
+J'ai fait les quatre premiers jeux, tandis que mes camarades ont fait les quatre restants.
+
+J'ai aussi fait un système de meilleurs scores, qui permets d'enregistrer son nom et son score quand on bat le précédent.
+Votre nom et votre score sont ensuite stockés dans un fichier qui sera ré-ouvert au redémarrage du jeu.
+
+Tout a été écrit en C++ pure.
+
+
+##### Un projet d'IA (SAÉ 1.02)
+
+En parallèle des autres projets qui ne seront pas mentionnés ici, on avait un projet qui consistait en l'écriture d'une IA pour jouer à l'[Hexapawn](https://fr.wikipedia.org/wiki/Hexapawn).
+
+L'intérêt était d'écrire plusieurs IAs qui suivraient un principe simple, et le but final était d'avoir le meilleur compromis entre l'efficacité du code et la maîtrise du jeu.
+
+Donc, moi et mes deux camarades avons fait trois IAs:
+* L'approche de l'arbre: on calcule chaque possibilité de tableau de jeu sous la forme d'un arbre et on attribue un score à chaque branche pour jouer selon ce qui mène au score le plus grand.
+* L'approche du score par case: on simule un nombre de parties donné et on donne un score plus haut aux cases qui mènent à la victoire le plus souvent. On joue ensuite de façon à aller sur ces cases stratégiques le plus possible.
+* L'approche du score par pion: on simle un nombre de parties donné et on donne un score plus haut aux pions qui gagnent le plus souvent. On joue ensuite ces pions plus souvent que les autres.
+
+J'ai programmé la première, et mes deux camarades ont programmé les deux restantes.
+
+Si vous avez déjà travaillé sur de la complexité de code, vous avez peut-être déjà compris que bien que la première IA gagne le plus souvent, il est très long de calculer chaque possibilité et donc elle ne peut marcher dans un temps raisonnable pour un tableau de jeu en 5×5 ou plus.
+
+Les deux aux IAs, cependant, bien qu'elles perdent plus souvent, fonctionnent pour à peu près n'importe quelle taille de tableau si vous limitez le nombre de parties simulées.
+
+Ah et, bien entendu, on a tout écrit en C++, et on a également fait un rapport de 13 pages pour décrire nos choix, problèmes et solutions.
+
+
+##### Un jeu (SAÉ 2.01 & 2.05)
+
+Ok, d'accord, il y a peut-être un touuuut petit écart entre ce projet et les précédents.
+Mais bon, entre les semestres 1 et 2, on a gagné beaucoup d'expérience !
+
+Donc le projet final du deuxième semestre était de créer un jeu se jouant sur une grille de cases (d'une taille d'au moins 10×10), avec des éléments dans chaque case et la possibilité d'interagir avec en utilisant les flèches du clavier, des boutons, un système de glisser-déposer, etc.
+
+Pour faire simple, on a oblitéré le sujet initiam: 
+
+![Capture d'écran du jeu](https://github.com/giroletm/giroletm/blob/main/Resources/READMEFull/Entry2/SAE201205-Gameplay.png?raw=true)
+
+On a fait un RPG, avec une carte entièrement designée, des intérieurs pour les bâtiments, et même une quête principale avec un petit scénario pour le jeu.
+
+Tout ça en quatre semaines, en C++, en utilisant [SDL2](https://www.libsdl.org/) pour le rendu graphique.
+
+J'ai programmé plusieurs systèmes internes du jeu (système d'acteurs, machine d'états, système de carte, etc).
+L'un de mes camarades de groupe a fait tout le design et a également programmé le système d'inventaires, tandis que mon autre camarade a programmé les personnages (Joueur & PNJs) et le système de boîtes de dialogue.
+
+Un ami à moi a même fait quelques musiques pour le jeu. On a également pris des textures et des effets sonores de (respectivement) [RPG Maker](https://www.rpgmakerweb.com/) et [Untertale](https://undertale.com/).
+
+C'était une charge de travail immense pour un temps si court, mais on y est arrivé.
+
+
+##### SAÉ All stars (Celles qui n'ont pas été mentionnées)
+
+Puisque je ne vais pas mentionner tous les projets, voici une liste de ceux que je n'ai pas cité:
+* SAÉ 1.03: Mettre en place un ordinateur pour deux clients: une famille et un étudiant
+* SAÉ 1.04: Créer une base de données selon les contraintes d'un client
+* SAÉ 1.05: Développer le site vitrine d'un client
+* SAÉ 1.06: Analyser la partie économique d'une entreprise spécialisée dans l'informatique
+* SAÉ 2.02: Écrire un algorithme pour trouver le chemin le plus court entre deux points sur une carte possédant différentes contraintes pour chaque zone
+* SAÉ 2.03: Faire une application de chat instantanée (à la [IRC](https://fr.wikipedia.org/wiki/Internet_Relay_Chat)) fonctionnant avec un système de client-serveur à travers un réseau local
+* SAÉ 2.04: Transformer des [fichiers CSV](https://fr.wikipedia.org/wiki/Comma-separated_values) en une base de données fonctionnelle et créer des diagrammes pour étudier les connées contenues par celle-ci
+* SAÉ 2.06: Organiser la journée d'accueil des élèves arrivant l'an prochain
+
+Je ferais un dépôt avec les codes de tous les projets, j'ajouterais un lien ici dès que ce sera fait.
+
+
+#### Mots de la fin
+
+À l'an prochain ;)
 
 ## Conclusion
 
