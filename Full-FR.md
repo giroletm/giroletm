@@ -87,7 +87,7 @@ Puis avec le COVID et la canicule, la saison quatre du serveur s'est invitée pl
 
 Enfin, en juillet 2021, le serveur a eu sa cinquième et dernière saison à ce jour, encore une fois pendant deux mois. Le bot a eu sa plus grosse mise à jour: un jeu de gestion complet était en cours de création qui consistait en la culture d'ingrédients et essayer de créer des plats en utilisant ces derniers, où se tromper était fréquent mais réussir valait sacrément le coup ! Malheureusement, je n'ai pas pu le finir à temps. Quelques changements de QdV ont été aussi effectués, comme l'ajout d'un salaire quotidien qui serait plus haut pour les membres les plus actifs.
 
-J'adorerais reprendre ce projet un jour et faire une saison six, mais pour ça il faudrait que je trouve la motivation de finir le jeu de gestion ! Mais qui sait, peut-être pendant l'été 2023...
+J'adorerais reprendre ce projet un jour et faire une saison six, mais pour ça il faudrait que je trouve la motivation de finir le jeu de gestion ! Mais qui sait, peut-être pendant l'été 2024...
 
 ### Outils divers — 2019-Aujourd'hui
 
@@ -146,6 +146,8 @@ Le nom des modules ne représentent pas vraiment ce qu'ils contiennent, donc ne 
 
 C'est tout pour cette fois ! Je pense rendre public certains des projets sur lesquels on a bossé un jour.
 
+**EDIT:** Les projets de ma première année que j'ai rendus publics sont disponibles ici: https://github.com/giroletm/uB-B1-SAE
+
 ### Entrée 2: 29 juin 2023
 
 Bon bah, c'est la fin de la première année. Plus que deux !
@@ -194,6 +196,8 @@ Votre nom et votre score sont ensuite stockés dans un fichier qui sera ré-ouve
 
 Tout a été écrit en C++ pure.
 
+=> [Code source](https://github.com/giroletm/uB-B1-SAE/tree/master/S1_01)
+
 
 ##### Un projet d'IA (SAÉ 1.02)
 
@@ -214,6 +218,8 @@ Les deux aux IAs, cependant, bien qu'elles perdent plus souvent, fonctionnent po
 
 Ah et, bien entendu, on a tout écrit en C++, et on a également fait un rapport de 13 pages pour décrire nos choix, problèmes et solutions.
 
+=> [Code source](https://github.com/giroletm/uB-B1-SAE/tree/master/S1_02)
+
 
 ##### Un jeu (SAÉ 2.01 & 2.05)
 
@@ -233,29 +239,90 @@ Tout ça en quatre semaines, en C++, en utilisant [SDL2](https://www.libsdl.org/
 J'ai programmé plusieurs systèmes internes du jeu (système d'acteurs, machine d'états, système de carte, etc).
 L'un de mes camarades de groupe a fait tout le design et a également programmé le système d'inventaires, tandis que mon autre camarade a programmé les personnages (Joueur & PNJs) et le système de boîtes de dialogue.
 
-Un ami à moi a même fait quelques musiques pour le jeu. On a également pris des textures et des effets sonores de (respectivement) [RPG Maker](https://www.rpgmakerweb.com/) et [Untertale](https://undertale.com/).
+Un ami à moi a même fait quelques musiques pour le jeu. On a également pris des textures et des effets sonores de (respectivement) [RPG Maker](https://www.rpgmakerweb.com/) et [Undertale](https://undertale.com/).
 
 C'était une charge de travail immense pour un temps si court, mais on y est arrivé.
+
+=> [Code source](https://github.com/giroletm/uB-B1-SAE/tree/master/S2_01-S2_05)
 
 
 ##### SAÉ All stars (Celles qui n'ont pas été mentionnées)
 
 Puisque je ne vais pas mentionner tous les projets, voici une liste de ceux que je n'ai pas cité:
-* SAÉ 1.03: Mettre en place un ordinateur pour deux clients: une famille et un étudiant
-* SAÉ 1.04: Créer une base de données selon les contraintes d'un client
+* [SAÉ 1.03](https://github.com/giroletm/uB-B1-SAE/tree/master/S1_03): Mettre en place un ordinateur pour deux clients: une famille et un étudiant
+* [SAÉ 1.04](https://github.com/giroletm/uB-B1-SAE/tree/master/S1_04): Créer une base de données selon les contraintes d'un client
 * SAÉ 1.05: Développer le site vitrine d'un client
 * SAÉ 1.06: Analyser la partie économique d'une entreprise spécialisée dans l'informatique
-* SAÉ 2.02: Écrire un algorithme pour trouver le chemin le plus court entre deux points sur une carte possédant différentes contraintes pour chaque zone
-* SAÉ 2.03: Faire une application de chat instantanée (à la [IRC](https://fr.wikipedia.org/wiki/Internet_Relay_Chat)) fonctionnant avec un système de client-serveur à travers un réseau local
-* SAÉ 2.04: Transformer des [fichiers CSV](https://fr.wikipedia.org/wiki/Comma-separated_values) en une base de données fonctionnelle et créer des diagrammes pour étudier les connées contenues par celle-ci
+* [SAÉ 2.02](https://github.com/giroletm/uB-B1-SAE/tree/master/S2_02): Écrire un algorithme pour trouver le chemin le plus court entre deux points sur une carte possédant différentes contraintes pour chaque zone
+* [SAÉ 2.03](https://github.com/giroletm/uB-B1-SAE/tree/master/S2_03): Faire une application de chat instantanée (à la [IRC](https://fr.wikipedia.org/wiki/Internet_Relay_Chat)) fonctionnant avec un système de client-serveur à travers un réseau local
+* [SAÉ 2.04](https://github.com/giroletm/uB-B1-SAE/tree/master/S2_04): Transformer des [fichiers CSV](https://fr.wikipedia.org/wiki/Comma-separated_values) en une base de données fonctionnelle et créer des diagrammes pour étudier les connées contenues par celle-ci
 * SAÉ 2.06: Organiser la journée d'accueil des élèves arrivant l'an prochain
 
 Je ferais un dépôt avec les codes de tous les projets, j'ajouterais un lien ici dès que ce sera fait.
 
+**EDIT:** Les projets de ma première année que j'ai rendus publics sont disponibles ici: https://github.com/giroletm/uB-B1-SAE
 
 #### Mots de la fin
 
 À l'an prochain ;)
+
+### Entrée 3: 9 avril 2024
+
+Ma deuxième année est aux trois quarts achevée, j'aimerais donc faire un point sur ce qu'il s'est passé depuis la dernière fois.
+
+#### Alternance
+
+Depuis mi-août 2023, je suis en [alternance](https://fr.wikipedia.org/wiki/Formation_par_alternance) chez une entreprise de développement informatique.
+
+J'y ai énormément progressé, et ait pu y découvrir des technologies que je n'avait jamais utilisé auparavant, telles que:
+- [Typescript](https://www.typescriptlang.org/)
+- [Angular](https://angular.io/)
+- [ASP.NET](https://www.asp.net/) ([MVC](https://fr.wikipedia.org/wiki/ASP.NET_MVC) & [Razor](https://learn.microsoft.com/aspnet/core/razor-pages/)) 
+
+Mais j'ai aussi pu énormément y travailler certaines choses que je connaissait déjà:
+- C#
+- HTML/CSS/Javascript
+
+Il me reste encore un an et demi là-bas, j'espère que tout se passera bien.
+
+#### Projets universitaires
+
+En deuxième année, nous n'avons que deux ([SAÉ](https://fr.wikipedia.org/wiki/Situation_d%27apprentissage_et_d%27%C3%A9valuation))s: une par semestre.
+
+Celle du premier semestre comportait plusieurs sujets: celui de mon groupe consistant en la création d'un site permettant à des utilisateurs de programmer des IAs.
+
+Je parlerais de celle du second semestre une fois celle-ci terminée, dans une entrée future.
+
+##### Développement d'une application (SAÉ 3.01)
+
+Ce projet consistait en la création d’un site web nommé "DOTS" pour "Drones Out There Searching".
+
+Le concept et le nom de celui-ci ont émergé de l’esprit de l'un de nos professeurs, qui était notre client dans ce projet.
+
+Le principe est simple: des joueurs du monde entier peuvent se connecter au site internet afin d’y programmer des intelligences artificielles (IA) facilement pour ensuite les faire s’affronter.
+
+Deux types d’IA existent: 
+- Les IA cibles. Elles gagnent lorsqu’elles arrivent à échapper à l’IA chercheuse dans le temps imparti.
+- Les IA chercheuses. Elles gagnent si elles arrivent à attraper l’IA cible.
+
+Les deux IA se déplacent dans un quadrillage, qui peut être plus ou moins rempli d’obstacles selon le mode de jeu.
+
+Dans un combat entre deux IAs, chaque joueur en programme une.
+
+Un joueur dispose d’une bibliothèque où il peut stocker et modifier ses IAs.
+Il peut aussi les publier afin que les autres joueurs puissent engager des combats avec celle-ci, et peut la sélectionner pour la faire combattre l’IA d’un autre joueur.
+
+Chaque joueur possède une valeur de gloire ("d’élo") qui représente son talent.
+Certains paliers d’élo font augmenter le joueur de niveau, lui donnant ainsi accès à de nouvelles fonctionnalités.
+
+Nous avons fait la partie visible du site ("front-end") avec [Angular](https://angular.io/) puisque j'ai acquis de l'expérience sur ce framework grâce à mon alternance.
+
+Les coulisses du site ("back-end"), elles, étaient faites en [PHP](https://www.php.net/).
+
+
+En toute honnêteté, nous avons très mal géré notre temps durant ce projet, nous menant à rendre un projet d'une qualité bien moindre par rapport aux attentes que nous avions.
+
+Mais nous n'en sortons pas perdant: à défaut d'avoir pu rendre un projet de qualité, cette expérience nous a clairement éduqué et une chose est sûre, nous ne referons pas les mêmes erreurs.
 
 ## Conclusion
 

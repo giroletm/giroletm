@@ -1,10 +1,10 @@
 # En bref
 - Ancien moddeur de NSMBW (injection de code, édition de niveaux, etc)
 - Maintenant enfin un étudiant, qui apprend de gens qui savent ce qu'ils font
-- J'améliore mon C++, C#, Python, HTML/CSS/JS, SQL & plus à l'université en ce moment (bientôt du PHP et d'autres trucs), mais j'ai également de l'expérience en assembleur PowerPC et en Reverse-Engineering
+- J'améliore mon C++, C#, Python, HTML/CSS/JS, SQL, PHP & plus à l'université en ce moment, mais j'ai également de l'expérience en assembleur PowerPC et en Reverse-Engineering
 - Français 🤮🥖
 - Je rêve de devenir un développeur de jeux vidéos à temps plein, mais ça restera sûrement un rêve
-- Je fais toujours du modding quand j'ai le temps, mais pas forcément sur NSMBW
+- Je fais toujours du modding de jeux que j'apprécie quand j'ai le temps
 
 # *Pas* en bref
 

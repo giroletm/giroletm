@@ -85,7 +85,7 @@ With the COVID and heat wave, the server's fourth season arrived early in August
 
 Finally, in July 2021, the server had its fifth and final season to date, for a duration of two months again. The bot reveived its most significant update: a full gestion game was in the works for people to harvest their own ingredients and try creating dishes using them, with common failures but rewarding successes! Unfortunately, it couldn't be finished in time. Some QoL changes were also made, like a daily salary that'd be higher for more active users.
 
-I'd love to resume this project one day and make a sixth season, but for that I'd need to find the motivation to finish the gestion game! Though who knows, maybe during summer 2023...
+I'd love to resume this project one day and make a sixth season, but for that I'd need to find the motivation to finish the gestion game! Though who knows, maybe during summer 2024...
 
 ### Misc tools — 2019-Today
 
@@ -144,6 +144,8 @@ The names of each modules aren't very faithful with the things they contain, so 
 
 That's the end of this entry! I think I'll make some of the projects we worked on available to the public someday.
 
+**EDIT:** The first year projects I have made public are available here: https://github.com/giroletm/uB-B1-SAE
+
 ### Entry 2: June 29th 2023
 
 Well, that's the end of the first year. Two more to go!
@@ -191,6 +193,8 @@ Your name and score then gets stored into a file to be re-opened whenever you re
 
 All of this was written in pure C++.
 
+=> [Source code](https://github.com/giroletm/uB-B1-SAE/tree/master/S1_01)
+
 ##### An AI project (SAÉ 1.02)
 
 In parallel to other projects that will go unmentionned here, we had a project that consisted into writing an AI to play [Hexapawn](https://en.wikipedia.org/wiki/Hexapawn).
@@ -209,6 +213,8 @@ If you ever worked with code complexity, you might have already figured out that
 The other two AIs however, while they loose more often, work for pretty much any board size if you cap the simulation count.
 
 Ah and, of course, we have written this in C++, and also have made a 13 pages long report to describe our choices, difficulties and solutions.
+
+=> [Source code](https://github.com/giroletm/uB-B1-SAE/tree/master/S1_02)
 
 ##### A game (SAÉ 2.01 & 2.05)
 
@@ -232,23 +238,85 @@ We even had a friend of mine making musics for the game. We also took textures a
 
 That was a lot of work for a short amount of time, but we succeeded.
 
+=> [Source code](https://github.com/giroletm/uB-B1-SAE/tree/master/S2_01-S2_05)
+
 ##### SAÉ All stars (The unmentionned ones)
 
 Since I'm not going to mention all projects, here is a list of all unmentionned ones:
-* SAÉ 1.03: Setting up a computer for two clients: a familly and a student
-* SAÉ 1.04: Creating a database according to a client's constraints
+* [SAÉ 1.03](https://github.com/giroletm/uB-B1-SAE/tree/master/S1_03): Setting up a computer for two clients: a familly and a student
+* [SAÉ 1.04](https://github.com/giroletm/uB-B1-SAE/tree/master/S1_04): Creating a database according to a client's constraints
 * SAÉ 1.05: Developping a client's showcase website
 * SAÉ 1.06: Analyzing the economy side of an IT-specialized company
-* SAÉ 2.02: Writing an algorithm to find the shortest path between two points on a map that has different constraints on each and every area
-* SAÉ 2.03: Making a instant [IRC](https://en.wikipedia.org/wiki/Internet_Relay_Chat)-like chat app that works using a client-server system through a local network
-* SAÉ 2.04: Turning a set of [CSV files](https://en.wikipedia.org/wiki/Comma-separated_values) into a working database and create diagrams to study the data contained within it
+* [SAÉ 2.02](https://github.com/giroletm/uB-B1-SAE/tree/master/S2_02): Writing an algorithm to find the shortest path between two points on a map that has different constraints on each and every area
+* [SAÉ 2.03](https://github.com/giroletm/uB-B1-SAE/tree/master/S2_03): Making a instant [IRC](https://en.wikipedia.org/wiki/Internet_Relay_Chat)-like chat app that works using a client-server system through a local network
+* [SAÉ 2.04](https://github.com/giroletm/uB-B1-SAE/tree/master/S2_04): Turning a set of [CSV files](https://en.wikipedia.org/wiki/Comma-separated_values) into a working database and create diagrams to study the data contained within it
 * SAÉ 2.06: Organizing the welcome day for next year's batch of students
 
 I will soon enough make a repository with the codes of all project, I'll add a link here once that's done.
 
+**EDIT:** The first year projects I have made public are available here: https://github.com/giroletm/uB-B1-SAE
+
 #### End words
 
 See you next year ;)
+
+### Entry 3: April 9th 2024
+
+My second year is three quarters done, so I'd like to talk about what happened since last time.
+
+#### Alternance
+
+Since mid-August 2023, I'm in [dual education](https://en.wikipedia.org/wiki/Dual_education_system) at an IT company.
+
+I have made immense progress there, and discovered some technologies i hadn't ever used before, such as:
+- [Typescript](https://www.typescriptlang.org/)
+- [Angular](https://angular.io/)
+- [ASP.NET](https://www.asp.net/) ([MVC](https://en.wikipedia.org/wiki/ASP.NET_MVC) & [Razor](https://learn.microsoft.com/aspnet/core/razor-pages/)) 
+
+But I was also able to work on things I had already used before:
+- C#
+- HTML/CSS/Javascript
+
+I still have a hear and a half to do there, I hope everything goes right.
+
+#### University projects
+
+In the second year, we only get two ([SAÉ](https://fr.wikipedia.org/wiki/Situation_d%27apprentissage_et_d%27%C3%A9valuation))s: one per semester.
+
+The first semester's offered multiple subjects. My group's was about creating a website that lets users program AIs.
+
+I will talk about the second semester's once it's finished, in a future entry.
+
+##### Developing an application (SAÉ 3.01)
+
+This project consisted in the creation of a website named "DOTS" for "Drones Out There Searching".
+
+Its concept and name come from the mind of one of our teacher, who acted as our client in this project.
+
+On paper, it's simple: players from the entire world can log into the website to program artificial intelligences (AI) easily and then make them fight each other.
+
+There are two types of AI:
+- Target AIs. They win if they can escape from the searching AI in a given amount of time.
+- Searcher AIs. They win if they can catch the Target AI.
+
+Both AIs can move on a grid, which can be more or less full of obstacles depending of the game mode.
+
+In a fight between two AIs, each player programs one of them.
+
+Each player has a library they can store and edit their AIs in.
+They also can publish them so other players can fight them, and they can use them to fight other players' AIs.
+
+Each player has an Elo value that represents their skills.
+Some Elo amounts will make the player level up, giving them access to new features.
+
+We have programmed the visible part of the website ("front-end") with [Angular](https://angular.io/) since I had gotten experience with it thanks to my dual education.
+
+The behind of the website ("back-end") was programmed in [PHP](https://www.php.net/).
+
+
+To be honest, we have handled our time very poorly during this project, leading us to deliver something of a poor quality compared to the initial expectations we had.
+
+But this isn't a complete loss: even though we couldn't deliver a good quality product, this experience clearly educated us and you can be sure that we won't ever do the same mistakes.
 
 ## Conclusion
 
