@@ -264,7 +264,7 @@ See you next year ;)
 
 My second year is three quarters done, so I'd like to talk about what happened since last time.
 
-#### Alternance
+#### Apprenticeship
 
 Since mid-August 2023, I'm in [dual education](https://en.wikipedia.org/wiki/Dual_education_system) at an IT company.
 
@@ -281,7 +281,7 @@ I still have a hear and a half to do there, I hope everything goes right.
 
 #### University projects
 
-In the second year, we only get two ([SAÉ](https://fr.wikipedia.org/wiki/Situation_d%27apprentissage_et_d%27%C3%A9valuation))s: one per semester.
+In the second year, we only get two [SAÉ](https://fr.wikipedia.org/wiki/Situation_d%27apprentissage_et_d%27%C3%A9valuation)s: one per semester.
 
 The first semester's offered multiple subjects. My group's was about creating a website that lets users program AIs.
 
@@ -317,6 +317,87 @@ The behind of the website ("back-end") was programmed in [PHP](https://www.php.n
 To be honest, we have handled our time very poorly during this project, leading us to deliver something of a poor quality compared to the initial expectations we had.
 
 But this isn't a complete loss: even though we couldn't deliver a good quality product, this experience clearly educated us and you can be sure that we won't ever do the same mistakes.
+
+### Entry 4: August 31st 2025
+
+It's been a long time, huh?
+
+I finished my third year of [BUT](https://en.wikipedia.org/wiki/Bachelor_universitaire_de_technologie), my oral presentation for my internship is done, and now I can only wait for the jury to give me my success certificate!
+
+#### Apprenticeship
+
+Everything went well in the company where I worked. In retrospect, I think I as very lucky to find such a great company: I led projects almost entirely by myself, I has awesome colleagues, and I got along well with my apprenticeship manager.
+
+I learned so much there, both in programming and in project management.
+Thanks to everyone who helped me there!
+
+#### University projects
+
+##### Developing a complex application (SAÉ 4.01)
+
+I didn't mention it in the previous entry, but the [SAÉ](https://fr.wikipedia.org/wiki/Situation_d%27apprentissage_et_d%27%C3%A9valuation) of the 4th semester was in three parts:
+
+- Using the code of a website developped by the students of the previous year, make an audit of all its problems, suggest solutions to those, and propose new features to add.
+  
+  Honestly, the hardest part was to get the projet we were given to work, and to understand how it worked.
+  
+  In the end, my teammates and I have written a 30 pages report.
+
+- We were given 5 commercial PDF files, and 5 JSON files containing a transcription for each of them, made with a tool which, notably, used OCR. We ha to write a Python script that analyzed those transcriptions to output a file that contains the various title levels for each document from a configuration file, so it could theoratically be fed another similarely made file to detect its titles.
+  
+  The transcriptor was very random, it notably divided some texts for no reason, et wouldn't specify some capital information like font size.
+
+  In the end, we wrote a decent program, and made an interface to create the configuration files.
+
+- As three mini-exercices, we had to solve the first one, and one of the two others:
+
+  - Write an algorithm that can solve a Sudoku from some numbers given at the start.
+
+  - Write an algorithm that, from areas on a hexagonal map with each areas being of one of four possible colors, can compute each area's color so no area touches another one with the same color.
+
+  - Write an algorithm that, from a chess board, can solve the [eight queens puzzle](https://en.wikipedia.org/wiki/Eight_queens_puzzle).
+
+These projets went well, even though there was some frustration due to the fact that:
+
+- We we told there would be a second part only when we finished the first one, and that there would be a third one only when we finished the second one
+
+- Only the second part was graded in the end, so it feels like we worked on the first and third parts "for nothing" ("Yes but you're working for yourself" is not and won't ever be an argument in a university context where time is lacking)
+
+##### Advanced development (SAÉ 5.01)
+
+We could make up any subject we want, so long as we made an application that fills a need and involves a database.
+
+We made a students gestion tool for [Hogwarts](https://en.wikipedia.org/wiki/Hogwarts), which would both act as a student educational resource containing classes, potion recipes, quizes, but also a tool for professors, who could enter grades, homework, and manage students.
+
+In the end, there was way too much to do, and with the lack of time due to the apprenticeship, and honestly, the lack of motivation, some features had to be cancelled, so our project wasn't working well.
+
+With that, the project used technologies we didn't master completely (most notably, NextJS & Symfony), and some members of the team didn't work as fast as we expected.
+
+All of these problems were also present in the oral presentation we had to do on the matter, which was clearly not up to the jury's standards, not up to mine.
+
+However, this is not a full defeat: the errors we made during this project, we now know them and we won't do them again!
+
+##### Evolution of an existing application (SAÉ 6.01)
+
+This last project consisted in upgrading the prevous one to add quality management tools (SonarQube, ESLint, PHPCSFixer, ...), conventions (naming of commits, code organization ....=), and security issues detectors (Drpendabot on GitHub, ...).
+
+We also had to add some features to the application, and write a report explaining it all.
+
+##### Conclusion on projets
+
+Honestly, it's a very good concept!
+
+Sure, the projets of the first years were much "funnier" than the next ones, but either way, it was a good occasion to put our skills in practice, reinforce them, and learn new things.
+
+I will try to make as many of my projects accessible, there already is a repository [for my first year projects](https://github.com/giroletm/uB-B1-SAE), I'll try to make more for the rest!
+
+##### Future
+
+I was accepted into an engineering school in [Île-de-France](https://en.wikipedia.org/wiki/%C3%8Ele-de-France), with an apprenticeship at the [SNCF](https://en.wikipedia.org/wiki/SNCF).
+
+So, the adventure of studies keeps going! I'm going back to school tomorrow!
+
+I will keep updating this document as I can, let's hope things stay positive!
 
 ## Conclusion
 

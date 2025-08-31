@@ -287,7 +287,7 @@ Il me reste encore un an et demi là-bas, j'espère que tout se passera bien.
 
 #### Projets universitaires
 
-En deuxième année, nous n'avons que deux ([SAÉ](https://fr.wikipedia.org/wiki/Situation_d%27apprentissage_et_d%27%C3%A9valuation))s: une par semestre.
+En deuxième année, nous n'avons que deux [SAÉ](https://fr.wikipedia.org/wiki/Situation_d%27apprentissage_et_d%27%C3%A9valuation)s: une par semestre.
 
 Celle du premier semestre comportait plusieurs sujets: celui de mon groupe consistant en la création d'un site permettant à des utilisateurs de programmer des IAs.
 
@@ -323,6 +323,87 @@ Les coulisses du site ("back-end"), elles, étaient faites en [PHP](https://www.
 En toute honnêteté, nous avons très mal géré notre temps durant ce projet, nous menant à rendre un projet d'une qualité bien moindre par rapport aux attentes que nous avions.
 
 Mais nous n'en sortons pas perdant: à défaut d'avoir pu rendre un projet de qualité, cette expérience nous a clairement éduqué et une chose est sûre, nous ne referons pas les mêmes erreurs.
+
+### Entrée 4: 31 août 2025
+
+Ça fait longtemps, non ?
+
+Ma troisième année de BUT est achevée, ma soutenance orale d'alternance est terminée, il ne me reste plus qu'à attendre le jury pour avoir mon attestation de réussite !
+
+#### Alternance
+
+Tout s'est bien passé dans l'entreprise où j'ai travaillé. Avec du recul, je me dis que j'ai eu de la chance de tomber sur une aussi bonne entreprise: j'ai pu mener des projets quasiment de A à Z, j'ai eu d'excellents collègues, et je me suis très bien entendu avec mon maître d'apprentissage.
+
+Concrètement, j'y ai appris énormément, que ce soit en terme de développement, ou de gestion de projet.
+Merci à tous ceux qui m'ont aidé là-bas !
+
+#### Projets universitaires
+
+##### Développement d'une application complexe (SAÉ 4.01)
+
+Je n'en n'avais pas parlé dans la précédente entrée, mais la [SAÉ](https://fr.wikipedia.org/wiki/Situation_d%27apprentissage_et_d%27%C3%A9valuation) du S4 était en trois parties:
+
+- Reprendre le code d'un site internet développé par la promo précédente l'année passée, et de réaliser un audit des problèmes que celui-ci comporte, proposer des solutions, ainsi que de suggérer des fonctionnalités à ajouter.
+  
+  Honnêtement, le plus dur, c'était de réussir à faire fonctionner le projet qu'on nous avais donné, et de comprendre comment celui-ci fonctionnait.
+  
+  Au final, mes camarades et moi avons écrit un rapport de 30 pages assez complet.
+
+- On nous a donné 5 fichiers PDF commerciaux, et 5 fichiers JSON qui contenaient une transcription de ceux-ci, créés par un outil utilisant notamment de l'OCR. Il fallait ecrire un script Python qui analyse ces transcription pour sortir un fichier annotant les différents niveaux de titres pour chaque document, à partir d'un fichier de configuration, de façon à ce qu'on puisse théoriquement donner un fichier ayant été réalisé de la même façon, et que cela puisse en détecter les titres.
+  
+  Le transcripteur était très hasardeux, il divisait notamment certains textes sans raison, et ne spécifiait pas certaines informations capitales comme les tailles de police d'écriture.
+
+  Au final, on a réussi à faire un programme correct, et on a créé une IHM pour fabriquer les fichiers de configuration.
+
+- Sous la forme de trois mini-exercices, il fallait résoudre le premier, et l'un des deux autres:
+
+  - Ecrire un algorithme qui peut résoudre un Sudoku à partir de certains chiffres donnés au départ.
+
+  - Ecrire un algorithme qui, en lui donnant des zones sur une grille hexagonale étant chacune coloriée d'une parmis quatre couleurs, puisse calculer les couleurs de chaque zone de façon à ce qu'aucune zone n'en touche une ayant la même couleur.
+
+  - Ecrire un algorithme, qui, en lui donnant en échiquier, peut trouver les différentes solutions du [problème des huit dames](https://fr.wikipedia.org/wiki/Probl%C3%A8me_des_huit_dames).
+
+Ces projets se sont plutôt bien déroulés, même s'il y a eu un certain agacement dû fait que:
+
+- Nous n'avons sû qu'il y aurait une deuxième partie à la fin de la première, et qu'il y en aurait une troisième à la fin de la deuxième
+
+- Seule la deuxième partie a été notée au final, donc on a l'impression d'avoir fait la première et la troisième "pour rien" ("Oui mais tu travailles pour toi" n'est pas et ne sera jamais un argument dans un contexte universitaire ou le temps manque)
+
+##### Développement avancé (SAÉ 5.01)
+
+Le sujet était libre, tant que l'on réalisait une application répondant à un besoin et disposant d'une base de données.
+
+On a réalisé un outil de gestion des élèves pour [Poudlard](https://fr.wikipedia.org/wiki/Poudlard), se voulant comme à la fois une ressource pédagogique contenant cours, recettes de potions, quiz, mais aussi un outil pour les professeurs, qui auraient pu y déposer des notes, des devoirs, et gérer leurs élèves.
+
+Au final, notre cahier des charges trop chargé, le manque de temps dû à l'alternance, et honnêtement, le manque de motivation, certaines fonctionnalités ont été omises, et on a rendu un projet peu fonctionnel.
+
+À cela s'ajoutent le fait que le projet utilisait des technologies que nous ne maîtrisions pas pleinement (notamment, NextJS & Symfony), et que certains membres du groupes n'avançaient pas aussi vite qu'il aurait fallu.
+
+Tous ces problèmes se sont fait ressentir dans l'oral que nous avions dû faire sur le sujet, qui n'a clairement pas été à la hauteur des attentes du jury ni de moi-même.
+
+Cependant, il ne faut pas le voir comme une défaite à 100%: les erreurs commises durant ce projet, nous les connaissons dorénavant et ne les commeterons pas une seconde fois !
+
+##### Évolution d'une application existante (SAÉ 6.01)
+
+Ce dernier projet consistait en la reprise du projet précédent pour y ajouter des outils de gestion de qualité (SonarQube, ESLint, PHPCSFixer, ...), des conventions (nommage des commits, organisation du code, ...), et des détecteurs de sécurité (Dependabot sur GitHub, ...).
+
+Il fallait aussi ajouter quelques fonctionnalités à l'application, et écrire un rapport récapitulant le tout.
+
+##### Conclusion sur les SAÉs
+
+Honnêtement, c'est un très bon concept !
+
+Certes, les projets de la première années étaient plus "fun" que ceux des suivants, mais dans tous les cas, ça a été une bonne occasion de mettre en pratique ses acquis, de renforcer ses compétences et d'apprendre de nouvelles choses.
+
+J'essaierai de rendre mes travaux accessibles au maximum, il existe déjà un repo [pour mes projets de première année](https://github.com/giroletm/uB-B1-SAE), j'essaierai d'en faire pour le reste !
+
+##### Avenir
+
+J'ai été accepté dans une école d'ingénieur en Île-de-France, en alternance à la [SNCF](https://fr.wikipedia.org/wiki/Soci%C3%A9t%C3%A9_nationale_des_chemins_de_fer_fran%C3%A7ais).
+
+Donc, l'aventure des études continues ! Ma rentrée est demain !
+
+Je continuerai de mettre à jour ce document comme je le peux, espérons que les choses restent positives !
 
 ## Conclusion
 
